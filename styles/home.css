@@ -846,6 +846,9 @@ hr{
 .tablebr{
     border-collapse: collapse;
     margin: 25px 0;
+    Width: 100;
+    align-items: center;
+    justify-content: center;
     margin-left: 130px;
     font-size: 20px;
     min-width: 1000px;
@@ -926,6 +929,32 @@ hr{
         margin-right: 10px;
         font-size: 20px;
         min-width: 1260px;
+        border-radius: 10px ;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    }
+}
+@media (min-width: 1366px){
+    .tablebr{
+        border-collapse: collapse;
+        margin: 25px 0;
+        margin-left: 33px;
+        margin-right: 33px;
+        font-size: 20px;
+        min-width: 1300px;
+        border-radius: 10px ;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    }
+}
+@media (min-width: 1920px){
+    .tablebr{
+        border-collapse: collapse;
+        margin: 25px 0;
+        margin-left: 400px;
+        margin-right: 400px;
+        font-size: 20px;
+        min-width: 1120px;
         border-radius: 10px ;
         overflow: hidden;
         box-shadow: 0 0 20px rgba(0, 0, 0, .15);
@@ -1107,6 +1136,19 @@ hr{
     }
     .container2 iframe{
         max-width: 1000px;
+    }
+}
+@media (min-width: 1779px){
+    .container2 img{
+        max-width: 720px;
+        border-color: #fff;
+    }
+    .container2 iframe{
+        width: 2900px;
+        margin-top: -130px;
+    }
+    .textbox p{
+        font-size: 30px;
     }
 }
 

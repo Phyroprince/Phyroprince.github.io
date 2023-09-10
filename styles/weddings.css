@@ -315,6 +315,7 @@ nav ul li a:hover:before{
 }
 .wedd-btn{
     position: relative;
+    align-items: center;
 }
 @media (min-width:320px){
     .wedd-btn{
